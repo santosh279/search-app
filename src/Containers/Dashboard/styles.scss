@@ -1,0 +1,34 @@
+.card-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+header {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.no-items {
+  @extend header;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.loader-display {
+  @extend header;
+}
+
+.error {
+  @extend .no-items;
+  color: red;
+}
+
+.button-wrap {
+  @extend header;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
