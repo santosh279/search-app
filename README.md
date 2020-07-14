@@ -67,3 +67,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # search-app
+
+### Node & Npm version
+--  The node version used for the project is v10.16.3 and the npm version is 6.14.5
